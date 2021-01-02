@@ -1,0 +1,21 @@
+# Assignment-14-OOP
+ackage assignment_14;
+
+public class BankAccount {
+class SavingAccount extends BankAccount {
+		
+		
+		double interestRate;
+		
+		public double getInterestRate() {
+			
+			return interestRate;
+		}
+		
+		public SavingAccount(double interestRate) {
+			
+			this.interestRate=interestRate;
+		}
+		
+	}
+}
